@@ -25,4 +25,4 @@ app.get('/news/:id', function(req, res){
     res.render('news', {newsId: req.params.id, obj: obj});
 });
 
-app.listen(3000);
+app.listen(3000); 
